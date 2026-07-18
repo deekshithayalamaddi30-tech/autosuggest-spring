@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    background-color:rgb(96, 94, 94)
+}
 h1{
     color:blueviolet
 }
@@ -7,10 +11,41 @@ h1{
     border-color: gray;
     padding: 20px;
     text-align: center;
+    background-color: rgb(227, 152, 152);
 }
 
 .navbar a{
     padding: 20px;
     text-decoration: none;
     color: black;
+}
+
+.navbar a:hover{
+    color:brown;
+    background-color:bisque;
+}
+.card{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 70px;
+    overflow: hidden;
+    /* margin-left: 40%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.card img{
+    /* width: 300px; */
+    width: 100%;
+}
+
+.card button{
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
 }
